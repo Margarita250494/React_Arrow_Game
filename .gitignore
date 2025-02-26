@@ -49,3 +49,6 @@ coverage/
 # MacOS and system files
 .DS_Store
 Thumbs.db
+
+# Husky
+.husky/_/
