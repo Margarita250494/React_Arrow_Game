@@ -1,24 +1,51 @@
+# Node modules
+node_modules/
+dist/
+.vite/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
 # Logs
-logs
-*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+pnpm-error.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
+.idea/
+.vscode/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Cache and build artifacts
+.cache/
+output/
+coverage/
+*.tsbuildinfo
+
+# TypeScript
+*.d.ts.map
+
+# Testing
+jest.config.js
+jest.config.ts
+coverage/
+.vitest/
+
+# Linting and formatting
+.eslintcache
+.prettier-cache
+
+# MacOS and system files
+.DS_Store
+Thumbs.db
