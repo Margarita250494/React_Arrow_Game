@@ -1,0 +1,23 @@
+.mainButton{
+    border-color: #29A090;
+    color: #29A090;
+    border-radius: 2.5rem;
+    font-weight: 800;
+    font-size: 0.6rem;
+    width: 5.5rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.1rem;
+    padding: 5px;
+}
+
+.mainButton:disabled{
+    border-color: #606060;
+    color:#606060 ;
+}
+
+.mainButton:hover{
+    border-color: #FF9142;
+    color: #FF9142;
+}

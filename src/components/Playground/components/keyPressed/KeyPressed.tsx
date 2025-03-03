@@ -34,14 +34,17 @@ const KeyPressed = ({ isTimerActive }: Props) => {
     }
   })
   return (
-    <div>
-      <h3>Key Pressed</h3>
+    <section aria-labelledby="key-pressed">
+      <h2 id="key-pressed">Key Pressed</h2>
+      <p>
+        Press the key corresponding to the key <br /> in "Random keys"
+      </p>
       <TimeComponent
         sx={{
-          "& path": { stroke: "#a4374a", strokeWidth: 0.3, fill: "#7fb77f" },
+          "& path": { stroke: "#35786F", strokeWidth: 0.3, fill: "#35786F" },
         }}
       />
-    </div>
+    </section>
   )
 }
 

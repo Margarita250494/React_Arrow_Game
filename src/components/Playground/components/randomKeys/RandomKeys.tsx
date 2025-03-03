@@ -11,7 +11,7 @@ const RandomKeys = ({ isTimerActive }: Props) => {
 
   return (
     <section aria-labelledby="Random-Keys">
-      <h3 id="Random-Keys">Random Keys</h3>
+      <h2 id="Random-Keys">Random Keys</h2>
       {state.steps.length === 0 ? (
         <WelcomeText isTimerActive={isTimerActive} />
       ) : (

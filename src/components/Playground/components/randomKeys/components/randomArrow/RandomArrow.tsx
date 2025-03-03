@@ -41,15 +41,7 @@ const RandomArrow = () => {
             }}
             className={getStylesRandomKeys(element)}
           >
-            <ArrowComponent
-              sx={{
-                "& path": {
-                  stroke: "#c52642",
-                  strokeWidth: 0.7,
-                  fill: "#ab9fd4",
-                },
-              }}
-            />
+            <ArrowComponent />
           </span>
         )
       })}

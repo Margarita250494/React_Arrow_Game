@@ -7,6 +7,7 @@ import RandomKeys from "./components/randomKeys"
 import KeyPressed from "./components/keyPressed"
 import Score from "./components/score"
 import Modal from "./components/modal"
+import Description from "./components/description"
 
 type Props = {}
 
@@ -57,22 +58,29 @@ const Playground = (props: Props) => {
     }
   }, [state.totalSuccessful, state.totalUnsuccessful])
   return (
-    <div>
-      {state.currentStep}
-      <Controls
-        isTimerActive={isTimerActive}
-        setIsTimerActive={setIsTimerActive}
-      />
-      <RandomKeys isTimerActive={isTimerActive} />
-      <KeyPressed isTimerActive={isTimerActive} />
-      <Score />
+    <>
+      <div className="box">
+        <RandomKeys isTimerActive={isTimerActive} />
+        <KeyPressed isTimerActive={isTimerActive} />
+        <Score />
+      </div>
+
+      <section aria-labelledby="main" className="box">
+        <h2 id="main">↑↓→← Arrow-game description</h2>
+        <Description />
+        <Controls
+          isTimerActive={isTimerActive}
+          setIsTimerActive={setIsTimerActive}
+        />
+      </section>
+
       {isShowModal && (
         <Modal
           setIsShowModal={setIsShowModal}
           isSuccessEndGame={isSuccessEndGame}
         />
       )}
-    </div>
+    </>
   )
 }
 

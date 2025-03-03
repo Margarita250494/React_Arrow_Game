@@ -7,7 +7,10 @@ const WelcomeText = ({ isTimerActive }: Props) => {
     return <span>Loading...</span>
   }
   return (
-    <p>Press "Play" to start the game and wait for the first arrow to appear</p>
+    <p>
+      Press "Play" to start the game and <br /> wait for the first arrow to
+      appear
+    </p>
   )
 }
 

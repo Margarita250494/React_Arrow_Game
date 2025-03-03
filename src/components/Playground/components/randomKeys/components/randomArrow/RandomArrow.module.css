@@ -1,12 +1,12 @@
 .icon{
-    background-color: rgb(175, 174, 171);
+    background-color: #FFC297;
 }
 
 
 .iconSuccess{
-    background-color: rgb(127, 196, 127);
+    background-color: #5CD0C0;
 }
 
 .iconUnsuccess{
-    background-color: rgb(225, 139, 155);
+    background-color: #F64051;
 }
