@@ -41,7 +41,12 @@ const KeyPressed = ({ isTimerActive }: Props) => {
       </p>
       <TimeComponent
         sx={{
-          "& path": { stroke: "#35786F", strokeWidth: 0.3, fill: "#35786F" },
+          fontSize: "2rem",
+          "& path": {
+            stroke: "#35786F",
+            strokeWidth: 0.3,
+            fill: "#59baad",
+          },
         }}
       />
     </section>

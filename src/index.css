@@ -227,6 +227,7 @@
 
  h1,h2,h3,h4,h5,h6{
   font-weight: 700;
+  margin-block: 0;
  }
 
 .visually-hidden {
@@ -251,8 +252,16 @@ p{
   
   display: flex;
   justify-content: center;
+    
   align-self: center;
   gap: 2rem;
+}
+
+p{margin: 0;}
+section{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .box{
@@ -261,4 +270,11 @@ p{
   flex: 1;
   margin: 1rem;
   border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h2{
+  color: #d7adad;
 }

@@ -3,3 +3,34 @@
     color: #FFBC42;
     width: 10rem;
 }
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(3px);
+}
+
+.container{
+    padding: 20px;
+    width: 19rem;
+    height: auto;
+    background-color: #141414;
+    border-radius: 20px;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.modalSuccess{
+    color: #B2FBA5;
+    font-size: 20px;
+}
+.modalUnsuccess{
+    color: #FF746C;
+    font-size: 20px;
+}

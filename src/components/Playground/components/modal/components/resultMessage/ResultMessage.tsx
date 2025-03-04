@@ -1,15 +1,20 @@
 type Props = {
   isSuccessEndGame: boolean
+  className: string
 }
 
-const ResultMessage = ({ isSuccessEndGame }: Props) => {
-  return isSuccessEndGame ? (
-    <p>
-      Congartulations! <br /> You won
-    </p>
-  ) : (
-    <p>
-      My regrets. <br /> You lost this game
+const ResultMessage = ({ isSuccessEndGame, className }: Props) => {
+  return (
+    <p className={className}>
+      {isSuccessEndGame ? (
+        <>
+          Congratulations! <br /> You won
+        </>
+      ) : (
+        <>
+          My regrets. <br /> You lost this game
+        </>
+      )}
     </p>
   )
 }

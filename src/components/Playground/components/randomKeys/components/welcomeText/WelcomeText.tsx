@@ -1,10 +1,17 @@
+import loader from "./loader.svg"
+import styles from "../../RandomKeys.module.css"
+
 type Props = {
   isTimerActive: boolean
 }
 
 const WelcomeText = ({ isTimerActive }: Props) => {
   if (isTimerActive) {
-    return <span>Loading...</span>
+    return (
+      <p className={styles.loader}>
+        <img src={loader} alt="loading" />
+      </p>
+    )
   }
   return (
     <p>

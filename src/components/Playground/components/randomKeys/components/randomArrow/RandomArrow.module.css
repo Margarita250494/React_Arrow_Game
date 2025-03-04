@@ -1,5 +1,25 @@
+.container{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
 .icon{
     background-color: #FFC297;
+}
+
+.iconWrapper{
+    border: 0.5px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0.2rem;
+}
+.iconWrapper svg{
+    font-size: 2rem;
+    fill: rgb(64, 64, 65);
 }
 
 
@@ -10,3 +30,7 @@
 .iconUnsuccess{
     background-color: #F64051;
 }
+
+
+
+
