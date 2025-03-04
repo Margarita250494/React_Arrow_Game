@@ -1,27 +1,25 @@
-# vite-template-redux
+# React Arrow Game
 
-Uses [Vite](https://vitejs.dev/), [Vitest](https://vitest.dev/), and [React Testing Library](https://github.com/testing-library/react-testing-library) to create a modern [React](https://react.dev/) app compatible with [Create React App](https://create-react-app.dev/)
+This is a React-based Arrow Game project, built with TypeScript, Redux Toolkit, Material UI, Vitest for testing, and Vite for fast development. The game was inspired by a YouTube tutorial series, and I made several customizations to the style, structure, icons, and more to make it unique. The primary goal of this project was to learn and implement Redux and testing practices.
 
-```sh
-npx degit reduxjs/redux-templates/packages/vite-template-redux my-app
-```
+## Based on
 
-## Goals
+YouTube tutorial [https://www.youtube.com/playlist?list=PL7cTIfGFrdKmWvaZph1HnoWIcVabcowzE]
 
-- Easy migration from Create React App or Vite
-- As beginner friendly as Create React App
-- Optimized performance compared to Create React App
-- Customizable without ejecting
+## Technologies Used
 
-## Scripts
+- **React** - A JavaScript library for building user interfaces.
+- **TypeScript** - A strongly typed programming language that builds on JavaScript.
+- **Redux Toolkit** - A set of tools to simplify Redux usage in React applications.
+- **Material UI** - A popular React component library for styling.
+- **Vitest** - A fast unit testing framework built on top of Vite.
+- **Vite** - A fast, next-generation build tool for modern web applications.
 
-- `dev`/`start` - start dev server and open browser
-- `build` - build for production
-- `preview` - locally preview production build
-- `test` - launch test runner
+## Features
 
-## Inspiration
-
-- [Create React App](https://github.com/facebook/create-react-app/tree/main/packages/cra-template)
-- [Vite](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react)
-- [Vitest](https://github.com/vitest-dev/vitest/tree/main/examples/react-testing-lib)
+- Arrow-based gameplay mechanics.
+- Custom styling and components.
+- State management using Redux Toolkit.
+- Unit tests using Vitest.
+- Responsive design using Material UI components.
+- Easy setup with Vite for fast development.
