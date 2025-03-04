@@ -14,7 +14,7 @@ export const MAP_ARROW_CODES: MapArrowCodesI = {
     ArrowRight: ArrowForwardRoundedIcon,
   };
 
-//export const ARR_ARROW_CODES = Object.keys(MAP_ARROW_CODES);
+export const ARR_ARROW_CODES = Object.keys(MAP_ARROW_CODES);
 
 export const END_GAME_CONDITION:EndGameConditionI = {
   SUCCESS_COUNT:3,
