@@ -252,7 +252,7 @@ p{
   
   display: flex;
   justify-content: center;
-    
+    flex-wrap: wrap;
   align-self: center;
   gap: 2rem;
 }
