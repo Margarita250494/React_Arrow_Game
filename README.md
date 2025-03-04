@@ -4,7 +4,7 @@ This is a React-based Arrow Game project, built with TypeScript, Redux Toolkit, 
 
 ## Based on
 
-YouTube tutorial [https://www.youtube.com/playlist?list=PL7cTIfGFrdKmWvaZph1HnoWIcVabcowzE]
+A [YouTube tutorial](https://www.youtube.com/playlist?list=PL7cTIfGFrdKmWvaZph1HnoWIcVabcowzE)
 
 ## Technologies Used
 
